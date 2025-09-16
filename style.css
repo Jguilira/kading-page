@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
 }
 
 body {
@@ -20,39 +19,66 @@ header{
   display: flex;
   flex-direction: row;
   width: 50%;
-  gap: 1%;
+  gap: 5%;
 }
 
 .esquerda{
   display: flex;
   flex-direction: column;
   width: 50%;
-  height: 85vh;
+  height: 100vh;
 }
-.pricipal{
+.principal{
   width: 50%;
+  height: 100vh;
+  padding-top: 5%;
 }
-
+.titulo-form{
+  margin-bottom: 3%;
+  font-size: 15pt;
+}
 .formulario{
   display: flex;
   flex-direction: column;
   background-color: white;
   width: 75%;
-  height: 40vh;
+  height: 50vh;
   gap: 5%;
   border-radius: 10px;
+  padding: 5%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.tag{
+  display: flex;
+  flex-direction: row;
+}
+.termos-tag{
+  color: grey;
+  font-size: 10pt;
+  margin: 2%;
+}
+.image-paragrafh{
+  font-size: 12pt;
 }
 input, button{
-  padding: 2%;
-  border-radius: 2%;
+  padding: 2.5%;
+  border-radius: 10px;
+  border: none;
+  outline: 0;
+  background-color: #CCE3FD;
+}
+button{
+  width: 65%;
+  background-color: #FA9B09;
+  color: white;
+  font-size: 20px;
 }
 
 
 .imagem-free{
-  width: 50%;
+  width: 60%;
 }
 .imagem-momentum{
   display: flex;
-  width: 8%;
-  
+  width: 11%;
 }
